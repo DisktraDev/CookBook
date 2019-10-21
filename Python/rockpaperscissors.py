@@ -62,7 +62,10 @@ def play_again():
         print("Thank you very much for playing our game. See you next time !")
 
 def scores():
-    pass
+    global player_score, computer_score
+    print("HIGH SCORES")
+    print("Player: ", player_score)
+    print("Computer: ", computer_score)
 
 if __name__ == '__main__':
     start()
