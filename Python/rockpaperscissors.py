@@ -55,7 +55,11 @@ def result(player, computer):
             computer_score += 1
 
 def play_again():
-    pass
+    answer = raw_input("Would you like to play agian ? y/n:")
+    if answer in ("y", "Y", "yes", "Yes", "Of course !"):
+        return answer
+    else:
+        print("Thank you very much for playing our game. See you next time !")
 
 def scores():
     pass
